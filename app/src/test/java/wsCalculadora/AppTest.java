@@ -38,15 +38,12 @@ public class AppTest {
 
         assertTrue((Double) c.tangente(0.0)*1.0==(Double)0.0);
     }
-
     @Test public void testResta() {
         Calculadora c = new Calculadora();
 
         assertTrue(c.resta(5, 2) == 3);
         assertTrue(c.resta(10, 20.5) == (-10.5));
     }
-
-
     @Test public void testExponencialEntero() {
         Calculadora c = new Calculadora();
 
@@ -57,4 +54,5 @@ public class AppTest {
 
         assertTrue((Double) c.exponencial( 144.00 , 0.5 )==(Double) 12.00 );
     }
+
 }
