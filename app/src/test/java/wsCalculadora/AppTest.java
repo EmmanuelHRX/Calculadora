@@ -53,6 +53,7 @@ public class AppTest {
         Calculadora c = new Calculadora();
 
         assertTrue( c.exponencial( 144.00 , 0.5 )==12.00 );
+        
     }
 
 }
