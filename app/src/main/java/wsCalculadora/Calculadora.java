@@ -22,7 +22,12 @@ public class Calculadora {
         return Math.tan(x);
     }
 
+
     public double resta(double x, double y) {
         return x - y;
+
+    public double exponencial(double base, double exp) {
+        return Math.pow(base, exp);
+
     }
 }
