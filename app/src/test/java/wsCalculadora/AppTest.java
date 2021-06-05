@@ -47,12 +47,12 @@ public class AppTest {
     @Test public void testExponencialEntero() {
         Calculadora c = new Calculadora();
 
-        assertTrue((Double) c.exponencial( 5.00 , 2.00 )==(Double) 25.00 );
+        assertTrue(c.exponencial( 5.00 , 2.00 )== 25.00 );
     }
     @Test public void testExponencialFrac() {
         Calculadora c = new Calculadora();
 
-        assertTrue((Double) c.exponencial( 144.00 , 0.5 )==(Double) 12.00 );
+        assertTrue( c.exponencial( 144.00 , 0.5 )==12.00 );
     }
 
 }
